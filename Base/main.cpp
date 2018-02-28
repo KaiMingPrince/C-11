@@ -1,8 +1,7 @@
-#include "Cast.hpp"
-
+#include "thread.hpp"
 int main(int agrc, char* argv[])
 {
-	TestDemo();
+	condition_variable_demo();
 	getchar();
 	return 0;
 }

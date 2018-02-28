@@ -26,5 +26,11 @@
     <ClInclude Include="Cast.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Construct.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="thread.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
