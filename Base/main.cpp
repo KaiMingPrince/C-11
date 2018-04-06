@@ -1,9 +1,7 @@
-#include "thread.hpp"
+#include "Cast.hpp"
 int main(int agrc, char* argv[])
 {
-	double i = 10;
-	double& r = i;
-	int s = sizeof(r);
+	TestDemo();
 	getchar();
 	return 0;
 }

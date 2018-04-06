@@ -152,6 +152,7 @@
     <ClInclude Include="Cast.hpp" />
     <ClInclude Include="Construct.hpp" />
     <ClInclude Include="thread.hpp" />
+    <ClInclude Include="threadpool.hpp" />
     <ClInclude Include="VirtualInherit.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

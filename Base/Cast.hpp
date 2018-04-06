@@ -1,4 +1,5 @@
 #pragma once
+#include <memory>
 #include <iostream>
 
 class Base {
@@ -15,10 +16,19 @@ public:
 	}
 };
 
+class Extras
+{
+public:
+	void f() {
+		std::cout << "Extras::f()" << std::endl;
+	}
+};
+
 void TestDemo()
 {
-	Base* base_ptr = new Base;
-	Derived* dervied_ptr = new Derived;
-	base_ptr = dynamic_cast<Base*>(dervied_ptr);
+	std::shared_ptr<Base> base_ptr = std::make_shared<Base>();
+	std::shared_ptr<Derived> dervied_ptr = std::make_shared<Derived>();
+	std::shared_ptr<Extras> extra_ptr = std::make_shared<Extras>();
+	base_ptr = std::dynamic_pointer_cast<Base>(dervied_ptr);
 	base_ptr->f();
 }
