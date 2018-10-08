@@ -89,10 +89,12 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(QTDIR)\include;$(QTDIR)\include\QtCore</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\Win32\Debug\</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -156,6 +158,8 @@
     <ClInclude Include="IntellPointer.hpp" />
     <ClInclude Include="reference.hpp" />
     <ClInclude Include="template.hpp" />
+    <ClInclude Include="Exception.hpp" />
+    <ClInclude Include="message_invoke.hpp" />
     <ClInclude Include="thread.hpp" />
     <ClInclude Include="threadpool.hpp" />
     <ClInclude Include="VirtualInherit.hpp" />
