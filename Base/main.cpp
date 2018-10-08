@@ -1,7 +1,7 @@
-#include "Cast.hpp"
+#include "chrono.hpp"
 int main(int agrc, char* argv[])
 {
-	TestDemo();
+	SystemClockTest();
 	getchar();
 	return 0;
 }

@@ -57,5 +57,5 @@ void init_cap_filter()
 void open_cap_device()
 {
 	IBaseFilter* ptr_base_filter;
-	HRESULT hr = CoCreateInstance(CLSID_SampleGrabber,
+	//HRESULT hr = CoCreateInstance(CLSID_SampleGrabber,
 }

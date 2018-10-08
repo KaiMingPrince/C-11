@@ -149,8 +149,13 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="atomic.hpp" />
     <ClInclude Include="Cast.hpp" />
+    <ClInclude Include="chrono.hpp" />
     <ClInclude Include="Construct.hpp" />
+    <ClInclude Include="IntellPointer.hpp" />
+    <ClInclude Include="reference.hpp" />
+    <ClInclude Include="template.hpp" />
     <ClInclude Include="thread.hpp" />
     <ClInclude Include="threadpool.hpp" />
     <ClInclude Include="VirtualInherit.hpp" />

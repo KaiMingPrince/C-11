@@ -35,5 +35,20 @@
     <ClInclude Include="threadpool.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="IntellPointer.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="atomic.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="template.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="chrono.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="reference.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
